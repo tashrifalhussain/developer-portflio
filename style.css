@@ -6,10 +6,13 @@ h1{
     font-size: 50px;
 
 }
+h2{
+    font-size: 40px;
+}
 .a{
     color:orange;
 }
-section{
+.flexable-contanier{
     display:flex;
     margin-bottom: 200px;
 }
@@ -44,4 +47,26 @@ padding-left: 2%;
     background-repeat: no-repeat;
     background-position: right;
 
+}
+.experience-area{
+background-image: url(images/exp-bg.png);
+background-repeat: no-repeat;
+background-position: left;
+}
+.expre1{
+box-shadow:10px 10px 40px grey ;
+margin-left: 5%;
+margin-right: 5%;
+border-radius: 10px;
+
+
+}
+#full-stack-developer{
+    border-left: 7px solid blue;
+}
+#baby-web-developer{
+    border-left: 7px solid red;
+}
+footer p {
+    text-align: center;
 }
